@@ -1,0 +1,13 @@
+driver.maximize_windows()
+try catch block
+class and function
+minimum time
+if two instances are open close one
+
+
+
+wait till page is loaded
+try:
+        setup = WebDriverWait(driver, loading_page_delay).until(EC.presence_of_element_located((By.XPATH, "(//div[@aria-label='Set up your store listing'])[1]")))
+    except TimeoutException:
+        print ("Failed to load page")
